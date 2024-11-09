@@ -74,7 +74,10 @@ color: azure;
 #pokemon-name{
     color:azure
 }
-    
+    .card{
+        padding: 20px;
+        margin: 50px;
+    }
 section{
     margin-bottom: 20px;
 }
