@@ -1,0 +1,104 @@
+
+:root{
+    /*desclaciones de variables*/
+
+    --blue-Talento-tech: #002552;
+    --blanco-talento-tech:#ffff;
+    --negro-talento-tech: black;
+
+    --sm:16px;
+    --md:32px;
+    --lg:56px;
+
+}
+
+body{
+    margin: 0;
+    font-family: "Source Code Pro", monospace;
+    color: azure;
+    background-color:#121212;
+  
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.item-icon{
+    flex-grow: 4; 
+}
+
+.row-container{
+    display: flex;
+    flex-direction: row;
+}
+.row-item{
+    flex-grow: 4; 
+}
+.card-image1{
+    width: 150px;
+    margin-bottom:50px ;
+    justify-self:center;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 80px;
+    border: 10px;
+}
+
+.img-icon{
+    width: 50px;
+    margin-bottom:1px ;
+    justify-self:center;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+   
+}
+.form-container{
+    display: grid;
+    margin-bottom: 50px;
+    grid-template-rows: auto 1fr auto;
+    width: 400px;
+    justify-items:center;
+    align-items: center;
+    margin-bottom:20px;
+
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+margin-bottom: 20px;
+color: azure;
+
+}
+#pokemon-name{
+    color:azure
+}
+    
+section{
+    margin-bottom: 20px;
+}
+.logo-tech{
+    width: 150px;
+    margin-bottom:50px ;
+    justify-self:center;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 80px;
+    border: 10px;
+}
+.input-field input [type="text"]{
+    color: azure;
+}
+.input-field input [type="text"]::placeholder{
+    color: azure;
+}
+#from_name{
+    color: azure;  
+}
+::placeholder{
+    color: rgba(255, 255, 255,0.7)
+}
+
+footer{
+    margin-top: 20px;
+}
